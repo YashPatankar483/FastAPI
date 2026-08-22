@@ -1,0 +1,375 @@
+{
+  "clinic_info": {
+    "doctor_id": "DOC-10294",
+    "doctor_name": "Dr. Sameer Kulkarni",
+    "specialization": "Internal Medicine",
+    "clinic_name": "Apex Health Care",
+    "last_updated": "2026-08-22T10:30:00Z"
+  },
+  "patients": [
+    {
+      "patient_id": "PT-1001",
+      "personal_info": {
+        "full_name": "Aarav Sharma",
+        "gender": "Male",
+        "age": 42,
+        "contact_number": "+91-9823011223",
+        "blood_group": "B+"
+      },
+      "vitals": {
+        "height_cm": 175.0,
+        "weight_kg": 78.5,
+        "bmi": 25.63,
+        "bmi_status": "Overweight",
+        "blood_pressure": "130/85 mmHg",
+        "heart_rate_bpm": 76
+      },
+      "medical_history": {
+        "allergies": ["Penicillin"],
+        "chronic_conditions": ["Mild Hypertension"],
+        "past_surgeries": ["Appendectomy (2018)"]
+      },
+      "case_records": [
+        {
+          "visit_id": "VST-8801",
+          "visit_date": "2026-08-15",
+          "chief_complaint": "Persistent fatigue and occasional morning headaches",
+          "diagnosis": "Stage 1 Essential Hypertension",
+          "prescriptions": [
+            {
+              "medicine_name": "Telmisartan",
+              "dosage": "40mg",
+              "frequency": "Once daily (Morning)",
+              "duration_days": 30
+            }
+          ],
+          "notes": "Advised reduced salt intake and daily 30-minute brisk walk. Review after 1 month."
+        }
+      ]
+    },
+    {
+      "patient_id": "PT-1002",
+      "personal_info": {
+        "full_name": "Priya Deshmukh",
+        "gender": "Female",
+        "age": 29,
+        "contact_number": "+91-9765432109",
+        "blood_group": "O+"
+      },
+      "vitals": {
+        "height_cm": 162.0,
+        "weight_kg": 54.0,
+        "bmi": 20.58,
+        "bmi_status": "Normal weight",
+        "blood_pressure": "118/75 mmHg",
+        "heart_rate_bpm": 72
+      },
+      "medical_history": {
+        "allergies": ["Sulfa drugs"],
+        "chronic_conditions": [],
+        "past_surgeries": []
+      },
+      "case_records": [
+        {
+          "visit_id": "VST-8802",
+          "visit_date": "2026-08-18",
+          "chief_complaint": "Dry cough, mild throat irritation for 4 days",
+          "diagnosis": "Acute Upper Respiratory Tract Infection (Viral)",
+          "prescriptions": [
+            {
+              "medicine_name": "Levocetirizine + Montelukast",
+              "dosage": "5mg/10mg",
+              "frequency": "Once daily (Night)",
+              "duration_days": 5
+            },
+            {
+              "medicine_name": "Dextromethorphan Syrup",
+              "dosage": "10ml",
+              "frequency": "Thrice daily",
+              "duration_days": 5
+            }
+          ],
+          "notes": "Advised warm saline gargles and adequate hydration."
+        }
+      ]
+    },
+    {
+      "patient_id": "PT-1003",
+      "personal_info": {
+        "full_name": "Rohan Mehta",
+        "gender": "Male",
+        "age": 55,
+        "contact_number": "+91-9422019988",
+        "blood_group": "A+"
+      },
+      "vitals": {
+        "height_cm": 170.0,
+        "weight_kg": 88.0,
+        "bmi": 30.45,
+        "bmi_status": "Obese (Class 1)",
+        "blood_pressure": "140/90 mmHg",
+        "heart_rate_bpm": 82
+      },
+      "medical_history": {
+        "allergies": [],
+        "chronic_conditions": ["Type 2 Diabetes Mellitus", "Dyslipidemia"],
+        "past_surgeries": []
+      },
+      "case_records": [
+        {
+          "visit_id": "VST-8803",
+          "visit_date": "2026-08-10",
+          "chief_complaint": "Routine quarterly diabetes follow-up, reports increased thirst",
+          "diagnosis": "Suboptimally controlled Type 2 Diabetes",
+          "prescriptions": [
+            {
+              "medicine_name": "Metformin",
+              "dosage": "1000mg",
+              "frequency": "Twice daily (Post meals)",
+              "duration_days": 90
+            },
+            {
+              "medicine_name": "Atorvastatin",
+              "dosage": "10mg",
+              "frequency": "Once daily (Night)",
+              "duration_days": 90
+            }
+          ],
+          "notes": "HbA1c reported at 7.8%. Dietitian consultation scheduled. Follow up in 3 months."
+        }
+      ]
+    },
+    {
+      "patient_id": "PT-1004",
+      "personal_info": {
+        "full_name": "Sneha Patil",
+        "gender": "Female",
+        "age": 35,
+        "contact_number": "+91-9988776655",
+        "blood_group": "AB+",
+        "is_pregnant": false
+      },
+      "vitals": {
+        "height_cm": 158.0,
+        "weight_kg": 68.0,
+        "bmi": 27.24,
+        "bmi_status": "Overweight",
+        "blood_pressure": "110/70 mmHg",
+        "heart_rate_bpm": 68
+      },
+      "medical_history": {
+        "allergies": ["Dust mites"],
+        "chronic_conditions": ["Hypothyroidism"],
+        "past_surgeries": ["Cesarean section (2021)"]
+      },
+      "case_records": [
+        {
+          "visit_id": "VST-8804",
+          "visit_date": "2026-07-29",
+          "chief_complaint": "Weight gain despite controlled diet, lethargy",
+          "diagnosis": "Hypothyroidism (Dose adjustment required)",
+          "prescriptions": [
+            {
+              "medicine_name": "Levothyroxine Sodium",
+              "dosage": "75mcg",
+              "frequency": "Once daily (Empty stomach, Morning)",
+              "duration_days": 60
+            }
+          ],
+          "notes": "TSH elevated at 6.4 uIU/mL. Increased dose from 50mcg to 75mcg. Repeat TSH test after 6 weeks."
+        }
+      ]
+    },
+    {
+      "patient_id": "PT-1005",
+      "personal_info": {
+        "full_name": "Vikram Rathore",
+        "gender": "Male",
+        "age": 22,
+        "contact_number": "+91-9123456780",
+        "blood_group": "O-"
+      },
+      "vitals": {
+        "height_cm": 182.0,
+        "weight_kg": 62.0,
+        "bmi": 18.72,
+        "bmi_status": "Normal weight (Low normal)",
+        "blood_pressure": "115/72 mmHg",
+        "heart_rate_bpm": 64
+      },
+      "medical_history": {
+        "allergies": ["Peanuts"],
+        "chronic_conditions": ["Allergic Asthma"],
+        "past_surgeries": []
+      },
+      "case_records": [
+        {
+          "visit_id": "VST-8805",
+          "visit_date": "2026-08-05",
+          "chief_complaint": "Wheezing and shortness of breath triggered by seasonal change",
+          "diagnosis": "Mild Persistent Asthma Exacerbation",
+          "prescriptions": [
+            {
+              "medicine_name": "Budesonide + Formoterol Inhaler",
+              "dosage": "200/6 mcg",
+              "frequency": "2 puffs twice daily",
+              "duration_days": 30
+            },
+            {
+              "medicine_name": "Salbutamol Inhaler (SOS)",
+              "dosage": "100mcg",
+              "frequency": "As needed for acute breathlessness",
+              "duration_days": 30
+            }
+          ],
+          "notes": "Demonstrated correct inhaler and spacer technique. Avoid identified allergen triggers."
+        }
+      ]
+    },
+    {
+      "patient_id": "PT-1006",
+      "personal_info": {
+        "full_name": "Ananya Roy",
+        "gender": "Female",
+        "age": 48,
+        "contact_number": "+91-9811223344",
+        "blood_group": "A-"
+      },
+      "vitals": {
+        "height_cm": 155.0,
+        "weight_kg": 43.5,
+        "bmi": 18.11,
+        "bmi_status": "Underweight",
+        "blood_pressure": "105/65 mmHg",
+        "heart_rate_bpm": 74
+      },
+      "medical_history": {
+        "allergies": [],
+        "chronic_conditions": ["Chronic GERD", "Iron Deficiency Anemia"],
+        "past_surgeries": ["Cholecystectomy (2019)"]
+      },
+      "case_records": [
+        {
+          "visit_id": "VST-8806",
+          "visit_date": "2026-08-12",
+          "chief_complaint": "Severe heartburn and epigastric discomfort after spicy meals",
+          "diagnosis": "Gastroesophageal Reflux Disease (Active Flare)",
+          "prescriptions": [
+            {
+              "medicine_name": "Pantoprazole + Domperidone",
+              "dosage": "40mg/30mg",
+              "frequency": "Once daily (30 min before breakfast)",
+              "duration_days": 14
+            },
+            {
+              "medicine_name": "Ferrous Ascorbate + Folic Acid",
+              "dosage": "100mg/1.5mg",
+              "frequency": "Once daily (Post lunch)",
+              "duration_days": 30
+            }
+          ],
+          "notes": "Advised to elevate bed head, avoid eating 2 hours before lying down, and limit caffeine."
+        }
+      ]
+    },
+    {
+      "patient_id": "PT-1007",
+      "personal_info": {
+        "full_name": "Karan Joshi",
+        "gender": "Male",
+        "age": 31,
+        "contact_number": "+91-9876501234",
+        "blood_group": "B-"
+      },
+      "vitals": {
+        "height_cm": 178.0,
+        "weight_kg": 74.0,
+        "bmi": 23.36,
+        "bmi_status": "Normal weight",
+        "blood_pressure": "122/80 mmHg",
+        "heart_rate_bpm": 70
+      },
+      "medical_history": {
+        "allergies": ["NSAIDs (Ibuprofen causes urticaria)"],
+        "chronic_conditions": [],
+        "past_surgeries": ["Right ACL Reconstruction (2023)"]
+      },
+      "case_records": [
+        {
+          "visit_id": "VST-8807",
+          "visit_date": "2026-08-20",
+          "chief_complaint": "Acute lower back spasm after gym deadlifts",
+          "diagnosis": "Acute Lumbar Muscle Strain",
+          "prescriptions": [
+            {
+              "medicine_name": "Paracetamol",
+              "dosage": "650mg",
+              "frequency": "Thrice daily (SOS for pain)",
+              "duration_days": 5
+            },
+            {
+              "medicine_name": "Thiocolchicoside",
+              "dosage": "4mg",
+              "frequency": "Twice daily",
+              "duration_days": 5
+            }
+          ],
+          "notes": "Strictly avoid NSAIDs due to allergy. Prescribed hot fermentation and rest from heavy lifting."
+        }
+      ]
+    },
+    {
+      "patient_id": "PT-1008",
+      "personal_info": {
+        "full_name": "Sunita Verma",
+        "gender": "Female",
+        "age": 63,
+        "contact_number": "+91-9345678901",
+        "blood_group": "AB-",
+        "is_pregnant": false
+      },
+      "vitals": {
+        "height_cm": 152.0,
+        "weight_kg": 65.0,
+        "bmi": 28.13,
+        "bmi_status": "Overweight",
+        "blood_pressure": "138/88 mmHg",
+        "heart_rate_bpm": 78
+      },
+      "medical_history": {
+        "allergies": [],
+        "chronic_conditions": ["Osteoarthritis (Bilateral Knees)", "Stage 1 Hypertension"],
+        "past_surgeries": ["Cataract Surgery - Left Eye (2024)"]
+      },
+      "case_records": [
+        {
+          "visit_id": "VST-8808",
+          "visit_date": "2026-08-21",
+          "chief_complaint": "Bilateral knee joint pain aggravated by climbing stairs",
+          "diagnosis": "Osteoarthritis Knee Flare-up",
+          "prescriptions": [
+            {
+              "medicine_name": "Amlodipine",
+              "dosage": "5mg",
+              "frequency": "Once daily (Morning)",
+              "duration_days": 60
+            },
+            {
+              "medicine_name": "Diacerein + Glucosamine",
+              "dosage": "50mg/750mg",
+              "frequency": "Twice daily (With meals)",
+              "duration_days": 30
+            },
+            {
+              "medicine_name": "Diclofenac Gel",
+              "dosage": "Topical application",
+              "frequency": "Apply locally twice daily",
+              "duration_days": 15
+            }
+          ],
+          "notes": "Referred to physical therapy for quadriceps strengthening. Advised weight reduction to reduce joint load."
+        }
+      ]
+    }
+  ]
+}
