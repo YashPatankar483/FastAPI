@@ -40,7 +40,7 @@ def patient_info(patient_id : str = Path(..., description="This path param ident
 @app.get("/sort")
 def sorted_list(sort_by: str = Query(..., description="height_cm, weight_kg, bmi, heart_rate_bpm"), order: str = Query("asc", description="asc or desc")):
 
-     valid_fields = ["height", "weight", "bmi", "heart_rate"]
+     valid_fields = ["height_cm", "weight_kg", "bmi", "heart_rate_bpm"]
 
      if sort_by not in valid_fields:
           raise HTTPException(status_code=400, detail=f"Invalid field, select from {valid_fields}")
@@ -51,10 +51,10 @@ def sorted_list(sort_by: str = Query(..., description="height_cm, weight_kg, bmi
      with open("data.json", "r") as f:
           data = json.load(f)
 
-          patients = data["patients"]
+          patients = data["patients"]            # list of patients
 
           sort_order = True if order=="desc" else False
 
-          sorted_data = sorted(patients, key = lambda x: x.get(sort_by, 0), reverse=sort_order)
+          sorted_data = sorted(patients, key = lambda x: x["vitals"][sort_by], reverse=sort_order)
 
           return sorted_data
